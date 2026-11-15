@@ -1,4 +1,165 @@
 {
   "federal_register": [],
-  "schedule": []
+  "schedule": [
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-08bcf7d8e2bfe3a564024a1e8b21fe11",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-09T23:30:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-0da3bd85e05e0e7aaf417dfe90a9c23e",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-13T13:30:00+00:00",
+      "title": "White House - Press Briefing by the White House Press Secretary Katie Zacharia",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-0f9ec669001d68fb009adf1d9ad6f634",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-03T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-268fc116a76fefa4ec83beeb550701b8",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-01T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks [6:00 PM Local]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-3e6d8ebae30df84b697e26f087a0fba6",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-05T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks [6:00 PM Local]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-44ca5478b6aedf6dbc85fee72633ba89",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-12T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-74cdd6707519fe305a2d16d7960b19aa",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-14T01:30:00+00:00",
+      "title": "White House - Markwayne Mullin and Sean Duffy conduct a press briefing on the FAA ground stop",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-7f3735007261e1821e7da4183d253d96",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-10T18:30:00+00:00",
+      "title": "White House - The President delivers Remarks [CDT Local]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-82bbe635b4b9388500d58ce67c4dcc98",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-04T04:58:00+00:00",
+      "title": "White House - The President calls Fox News for a live interview",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-882314d8bd1847cb96fbe918819d7c47",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-08T13:00:00+00:00",
+      "title": "White House - The President conducts a phone interview with Jim Sciutto of CNN [Note: Time is approximate]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-89a8173d7410e9c0e685eb7832643721",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-02T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks [6:00 PM Local]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-8b3d15f6af72c3dfe45dfe74ea887cde",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-02T19:00:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-8c7f561fe8d3d2082329b67efd3fe02b",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-04T17:45:00+00:00",
+      "title": "White House - The President delivers previously unscheduled remarks at the site of the White House ballroom",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-8fe686db3a0cbbb1eb7128b91180a63f",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-07T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks [6:00 PM Local]",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-9eeb2201693b6fec811690016a678fa8",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-09T21:41:00+00:00",
+      "title": "White House - The President calls an unscheduled press conference at the White House",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-b68a07e6a4f05d72d72ea80db7e17566",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-11T16:30:00+00:00",
+      "title": "White House - The President delivers Veterans Day Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-c340a981626e65e4165ae7167679c7d8",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-06T23:00:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-f1aa0fc285e504727b839d668b50dde2",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-03T16:05:00+00:00",
+      "title": "White House - The President calls Dan Bongino for a live interview",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-f279ed1ab203352a6efd5db2d7e5fdaa",
+      "stamp": "20261115T111320Z",
+      "start": "2026-10-06T20:00:00+00:00",
+      "title": "White House - The President delivers Remarks",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-f9821edd511d5f48f5ec333ada44adaa",
+      "stamp": "20261115T111320Z",
+      "start": "2026-11-03T13:07:00+00:00",
+      "title": "White House - The President calls Fox News' Fox & Friends for a live interview",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    }
+  ]
 }

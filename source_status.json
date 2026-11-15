@@ -1,1 +1,11 @@
-{"schedule":{"state":"not_yet_fetched"},"federal_register":{"state":"not_yet_fetched"}}
+{
+  "federal_register": {
+    "cached_events": 0,
+    "message": "HTTP Error 400: Bad Request",
+    "state": "error"
+  },
+  "schedule": {
+    "events": 20,
+    "state": "ok"
+  }
+}
