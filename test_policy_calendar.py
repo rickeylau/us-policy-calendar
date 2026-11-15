@@ -13,7 +13,7 @@ class TestPolicy(unittest.TestCase):
     def test_bad_feed(self):
         with self.assertRaises(ValueError): parse_schedule(b'<html>error</html>', self.today, self.cfg)
     def test_fr_dates(self):
-        d = {'document_number':'test', 'title':'Adjusting Imports of X', 'publication_date':'2026-11-12', 'effective_date':'2026-12-01', 'type':'Presidential Document'}
+        d = {'document_number':'test', 'title':'Adjusting Imports of X', 'publication_date':'2026-11-12', 'effective_on':'2026-12-01', 'type':'Presidential Document'}
         rows = parse_documents([d],self.today,self.cfg)
         self.assertEqual(len(rows),2)
         self.assertEqual({r['start'] for r in rows},{'2026-11-12','2026-12-01'})

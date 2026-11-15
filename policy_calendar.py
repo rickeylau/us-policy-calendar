@@ -135,7 +135,7 @@ def parse_schedule(raw, today, cfg):
 def api_pages(query, today, cfg):
     params = [('per_page', '100'), ('order', 'newest'),
               ('conditions[publication_date][gte]', (today - timedelta(days=cfg['future_days'])).isoformat())]
-    params += [('fields[]', f) for f in ('document_number', 'title', 'publication_date', 'effective_date', 'html_url', 'type', 'agencies')]
+    params += [('fields[]', f) for f in ('document_number', 'title', 'publication_date', 'effective_on', 'html_url', 'type', 'agencies')]
     params += query
     out = []
     for page in range(1, 21):
@@ -166,7 +166,7 @@ def parse_documents(documents, today, cfg):
             uid = 'fr-publication-' + num
             events[uid] = {'id':uid, 'start':pub.isoformat(), 'title':'Policy Published - '+title,
                            'description':'Federal Register publication date, not the time of the original announcement or legal effective date.', 'url':url}
-        effective = d.get('effective_date')
+        effective = d.get('effective_on')
         if cfg['include_effective_dates'] and effective and d.get('type') in ('Rule', 'RULE', 'Presidential Document', 'PRESDOCU', 'Notice', 'NOTICE'):
             eff = date.fromisoformat(effective)
             if eff > pub and in_window(effective, today, cfg):
