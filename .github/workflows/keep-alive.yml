@@ -1,0 +1,109 @@
+name: Calendar Maintenance
+
+on:
+  schedule:
+    - cron: '41 9 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: calendar-maintenance
+  cancel-in-progress: false
+
+jobs:
+  validate-calendar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Validate public calendar and write health report
+        env:
+          REPOSITORY: ${{ github.repository }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+
+          repo = os.environ['REPOSITORY']
+          name = repo.split('/')[-1]
+          files = {
+              'earnings-calendar': ('public', 'calendar.ics'),
+              'fed-calendar': ('main', 'fed.ics'),
+              'market-holidays': ('main', 'market-holidays.ics'),
+              'economic-calendar': ('main', 'economic.ics'),
+              'futures-roll': ('main', 'futures-roll.ics'),
+              'market-trading-hours': ('main', 'market-trading-hours.ics'),
+              'index-rebalance': ('main', 'index-rebalance.ics'),
+              'global-central-banks': ('main', 'global-central-banks.ics'),
+              'treasury-calendar': ('main', 'treasury.ics'),
+              'options-expiration': ('main', 'options-expiration.ics'),
+              'us-policy-calendar': ('main', 'us-policy.ics'),
+          }
+          branch, path = files[name]
+          url = f'https://raw.githubusercontent.com/{repo}/{branch}/{path}'
+          req = Request(url, headers={'User-Agent': 'Calendar-Maintenance/1.0'})
+          with urlopen(req, timeout=30) as response:
+              raw = response.read(10_000_001)
+          if len(raw) > 10_000_000:
+              raise ValueError('Calendar exceeds safety limit')
+          s = re.sub(r'\r?\n[ \t]', '', raw.decode('utf-8-sig'))
+          lines = s.splitlines()
+          if not lines or lines[0] != 'BEGIN:VCALENDAR' or lines[-1] != 'END:VCALENDAR':
+              raise ValueError('Invalid calendar envelope')
+          events = re.findall(r'^BEGIN:VEVENT\r?\n(.*?)^END:VEVENT\r?$', s, re.M | re.S)
+          if not events or len(events) != lines.count('BEGIN:VEVENT') or len(events) != lines.count('END:VEVENT'):
+              raise ValueError('Empty or unbalanced VEVENT records')
+          uids, dates = set(), []
+          for event in events:
+              uid = re.search(r'^UID(?:;[^:\r\n]+)?:([^\r\n]+)', event, re.M)
+              start = re.search(r'^DTSTART(?:;[^:\r\n]+)?:([^\r\n]+)', event, re.M)
+              if not uid or not start:
+                  raise ValueError('Missing UID or DTSTART')
+              if uid[1] in uids:
+                  raise ValueError('Duplicate UID: ' + uid[1])
+              uids.add(uid[1])
+              value = start[1]
+              if not re.fullmatch(r'\d{8}(?:T\d{6}Z?)?', value):
+                  raise ValueError('Unrecognized DTSTART: ' + value)
+              fmt = '%Y%m%d' if len(value) == 8 else '%Y%m%dT%H%M%SZ' if value.endswith('Z') else '%Y%m%dT%H%M%S'
+              dates.append(datetime.strptime(value, fmt).date())
+          now = datetime.now(timezone.utc)
+          upcoming = sum(d >= now.date() for d in dates)
+          warnings = [] if upcoming else ['No events dated today or later (UTC date check). Verify the source schedule.']
+          report = {
+              'checked_at_utc': now.isoformat(timespec='seconds'),
+              'calendar_url': url,
+              'sha256': hashlib.sha256(raw).hexdigest(),
+              'event_count': len(events),
+              'unique_uid_count': len(uids),
+              'events_today_or_later': upcoming,
+              'first_event_date': min(dates).isoformat(),
+              'last_event_date': max(dates).isoformat(),
+              'status': 'warning' if warnings else 'ok',
+              'warnings': warnings,
+          }
+          output = Path('calendar-health.json')
+          output.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
+          print(output.read_text())
+          for warning in warnings:
+              print('::warning::' + warning)
+          PY
+
+      - name: Publish health report
+        run: |
+          set -eu
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add calendar-health.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Update calendar validation report'
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
