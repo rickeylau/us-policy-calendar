@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//US Policy Calendar//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:US Policy Calendar
+X-WR-TIMEZONE:America/New_York
+X-WR-CALDESC:Public schedule and policy dates. Not real-time alerts. Verify
+  all legal deadlines.
+BEGIN:VEVENT
+UID:polysilicon-232-effective@us-policy-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20261204T050100Z
+DTEND:20261204T050600Z
+SUMMARY:Tariff Effective - Polysilicon / Solar Supply Chain
+DESCRIPTION:Presidential proclamation of August 6\, 2026\, clauses (2) and 
+ (4). Scheduled minimum import price program and additional duties\, subjec
+ t to exceptions and later amendments. Verify current legal status before r
+ elying on this date. Manually reviewed: 2026-11-15. Verify later amendment
+ s.
+URL:https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-impor
+ ts-of-polysilicon-and-its-derivatives-into-the-united-states/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:china-shipbuilding-301-deadline@us-policy-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20270110T045900Z
+DTEND:20270110T050400Z
+SUMMARY:Policy Deadline - China Shipbuilding Section 301 Suspension
+DESCRIPTION:USTR notice 2026-22867: suspension through 11:59 PM ET January 
+ 9\, 2027. This is a deadline reminder\, not a prediction that duties or fe
+ es will resume. Check for extensions or modifications. Manually reviewed: 
+ 2026-11-15. Verify later amendments.
+URL:https://www.federalregister.gov/d/2026-22867
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:uas-components-232-effective@us-policy-calendar
+DTSTAMP:20261115T000000Z
+DTSTART:20270209T050100Z
+DTEND:20270209T050600Z
+SUMMARY:Tariff Effective - Drone Components
+DESCRIPTION:Presidential proclamation\, clause (2): scheduled Section 232 d
+ uties on listed UAS components\, subject to exceptions and later amendment
+ s. Verify current legal status. Manually reviewed: 2026-11-15. Verify late
+ r amendments.
+URL:https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-impor
+ ts-of-unmanned-aircraft-systems-and-unmanned-aircraft-systems-components-i
+ nto-the-united-states/
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

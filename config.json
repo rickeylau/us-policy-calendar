@@ -1,0 +1,13 @@
+{
+  "calendar_name": "US Policy Calendar",
+  "history_days": 45,
+  "future_days": 365,
+  "presidential_schedule": true,
+  "federal_register": true,
+  "include_publication_dates": true,
+  "include_effective_dates": true,
+  "schedule_feed": "https://calendar.google.com/calendar/ical/cantymedia.com_62fqfmv1eejqs9hntbr6hof5kc%40group.calendar.google.com/public/basic.ics",
+  "policy_keywords": ["tariff", "adjusting imports", "modify imports", "modifying imports", "additional duties", "import duties", "section 301", "section 232", "trade agreement", "trade and security agreement", "export controls", "economic sanctions", "tax policy", "taxation", "debt ceiling", "debt limit", "government shutdown", "appropriations", "semiconductor", "critical minerals"],
+  "schedule_keywords": ["press briefing", "press conference", "remarks", "address", "speech", "interview", "economic", "tariff", "trade", "joint statement", "signing ceremony"],
+  "schedule_exclusions": ["closed press", "pre-tape", "pre tape", "pool call", "executive time", "photo lid", "travel lid", "intelligence briefing", "policy meeting", "fundraiser", "golf", "dinner lid", "lunch lid", "first lady", "vice president"]
+}
