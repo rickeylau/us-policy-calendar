@@ -118,6 +118,50 @@ URL:https://rollcall.com/factbase/trump/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:fr-publication-2026-22049@us-policy-calendar
+DTSTAMP:20261115T112045Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Policy Published - Adjusting Imports of Wind Turbines and Their Par
+ ts and Components Into the United States
+DESCRIPTION:Federal Register publication date\, not the time of the origina
+ l announcement or legal effective date.
+URL:https://www.federalregister.gov/documents/2026/10/28/2026-22049/adjusti
+ ng-imports-of-wind-turbines-and-their-parts-and-components-into-the-united
+ -states
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-publication-2026-22292@us-policy-calendar
+DTSTAMP:20261115T112045Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Policy Published - Further Modifying the Scope of Products of Canad
+ a Subject to the Additional Duties Imposed To Offset Canadian Discriminati
+ on Against the Commerce of the United States With Respect to Motor Vehicle
+ s
+DESCRIPTION:Federal Register publication date\, not the time of the origina
+ l announcement or legal effective date.
+URL:https://www.federalregister.gov/documents/2026/10/30/2026-22292/further
+ -modifying-the-scope-of-products-of-canada-subject-to-the-additional-dutie
+ s-imposed-to-offset
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-publication-2026-22385@us-policy-calendar
+DTSTAMP:20261115T112045Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Policy Published - Adjusting Imports of Robotics\, Industrial Machi
+ nery\, and Their Parts and Components Into the United States
+DESCRIPTION:Federal Register publication date\, not the time of the origina
+ l announcement or legal effective date.
+URL:https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusti
+ ng-imports-of-robotics-industrial-machinery-and-their-parts-and-components
+ -into-the-united
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:schedule-8b3d15f6af72c3dfe45dfe74ea887cde@us-policy-calendar
 DTSTAMP:20261115T111320Z
 DTSTART:20261102T190000Z
@@ -207,6 +251,36 @@ SUMMARY:White House - The President calls an unscheduled press conference a
 DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
  y be added after the event. Market relevance is keyword-filtered.
 URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-publication-2026-22867@us-policy-calendar
+DTSTAMP:20261115T112045Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Policy Published - Notice of Modification of Section 301 Action: Ch
+ ina's Targeting of the Maritime\, Logistics\, and Shipbuilding Sectors for
+  Dominance
+DESCRIPTION:Federal Register publication date\, not the time of the origina
+ l announcement or legal effective date.
+URL:https://www.federalregister.gov/documents/2026/11/10/2026-22867/notice-
+ of-modification-of-section-301-action-chinas-targeting-of-the-maritime-log
+ istics-and
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:fr-publication-2026-22868@us-policy-calendar
+DTSTAMP:20261115T112045Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Policy Published - Notice of Determination To Extend Section 301 In
+ vestigation of Vietnam's Acts\, Policies\, and Practices Related to Intell
+ ectual Property Protection and Enforcement
+DESCRIPTION:Federal Register publication date\, not the time of the origina
+ l announcement or legal effective date.
+URL:https://www.federalregister.gov/documents/2026/11/10/2026-22868/notice-
+ of-determination-to-extend-section-301-investigation-of-vietnams-acts-poli
+ cies-and-practices
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT

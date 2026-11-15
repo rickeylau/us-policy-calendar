@@ -1,5 +1,46 @@
 {
-  "federal_register": [],
+  "federal_register": [
+    {
+      "description": "Federal Register publication date, not the time of the original announcement or legal effective date.",
+      "id": "fr-publication-2026-22049",
+      "stamp": "20261115T112045Z",
+      "start": "2026-10-28",
+      "title": "Policy Published - Adjusting Imports of Wind Turbines and Their Parts and Components Into the United States",
+      "url": "https://www.federalregister.gov/documents/2026/10/28/2026-22049/adjusting-imports-of-wind-turbines-and-their-parts-and-components-into-the-united-states"
+    },
+    {
+      "description": "Federal Register publication date, not the time of the original announcement or legal effective date.",
+      "id": "fr-publication-2026-22292",
+      "stamp": "20261115T112045Z",
+      "start": "2026-10-30",
+      "title": "Policy Published - Further Modifying the Scope of Products of Canada Subject to the Additional Duties Imposed To Offset Canadian Discrimination Against the Commerce of the United States With Respect to Motor Vehicles",
+      "url": "https://www.federalregister.gov/documents/2026/10/30/2026-22292/further-modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset"
+    },
+    {
+      "description": "Federal Register publication date, not the time of the original announcement or legal effective date.",
+      "id": "fr-publication-2026-22385",
+      "stamp": "20261115T112045Z",
+      "start": "2026-11-02",
+      "title": "Policy Published - Adjusting Imports of Robotics, Industrial Machinery, and Their Parts and Components Into the United States",
+      "url": "https://www.federalregister.gov/documents/2026/11/02/2026-22385/adjusting-imports-of-robotics-industrial-machinery-and-their-parts-and-components-into-the-united"
+    },
+    {
+      "description": "Federal Register publication date, not the time of the original announcement or legal effective date.",
+      "id": "fr-publication-2026-22867",
+      "stamp": "20261115T112045Z",
+      "start": "2026-11-10",
+      "title": "Policy Published - Notice of Modification of Section 301 Action: China's Targeting of the Maritime, Logistics, and Shipbuilding Sectors for Dominance",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22867/notice-of-modification-of-section-301-action-chinas-targeting-of-the-maritime-logistics-and"
+    },
+    {
+      "description": "Federal Register publication date, not the time of the original announcement or legal effective date.",
+      "id": "fr-publication-2026-22868",
+      "stamp": "20261115T112045Z",
+      "start": "2026-11-10",
+      "title": "Policy Published - Notice of Determination To Extend Section 301 Investigation of Vietnam's Acts, Policies, and Practices Related to Intellectual Property Protection and Enforcement",
+      "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22868/notice-of-determination-to-extend-section-301-investigation-of-vietnams-acts-policies-and-practices"
+    }
+  ],
   "schedule": [
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",

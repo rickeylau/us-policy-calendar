@@ -1,8 +1,7 @@
 {
   "federal_register": {
-    "cached_events": 0,
-    "message": "HTTP Error 400: Bad Request",
-    "state": "error"
+    "events": 5,
+    "state": "ok"
   },
   "schedule": {
     "events": 20,
