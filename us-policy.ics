@@ -7,17 +7,6 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Public schedule and policy dates. Not real-time alerts. Verify
   all legal deadlines.
 BEGIN:VEVENT
-UID:schedule-268fc116a76fefa4ec83beeb550701b8@us-policy-calendar
-DTSTAMP:20261115T111320Z
-DTSTART:20261001T230000Z
-DTEND:20261001T230500Z
-SUMMARY:White House - The President delivers Remarks [6:00 PM Local]
-DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
- y be added after the event. Market relevance is keyword-filtered.
-URL:https://rollcall.com/factbase/trump/calendar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:schedule-89a8173d7410e9c0e685eb7832643721@us-policy-calendar
 DTSTAMP:20261115T111320Z
 DTSTART:20261002T230000Z
@@ -301,6 +290,18 @@ DTSTART:20261114T013000Z
 DTEND:20261114T013500Z
 SUMMARY:White House - Markwayne Mullin and Sean Duffy conduct a press brief
  ing on the FAA ground stop
+DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
+ y be added after the event. Market relevance is keyword-filtered.
+URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:schedule-1d03f1f25e7de7a44bb7b31cf00b4b8c@us-policy-calendar
+DTSTAMP:20261116T084344Z
+DTSTART:20261117T112500Z
+DTEND:20261117T113000Z
+SUMMARY:White House - The President participates in a U.S.-Thai Trade Deal 
+ Signing [7:25 PM Local]
 DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
  y be added after the event. Market relevance is keyword-filtered.
 URL:https://rollcall.com/factbase/trump/calendar/
