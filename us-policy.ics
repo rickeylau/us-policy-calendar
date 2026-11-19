@@ -286,6 +286,18 @@ URL:https://rollcall.com/factbase/trump/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:schedule-177a52fd157ef93a5fcd60c61640d98a@us-policy-calendar
+DTSTAMP:20261119T085112Z
+DTSTART:20261119T002200Z
+DTEND:20261119T002700Z
+SUMMARY:White House - The President conducts a live interview with Jacqui H
+ einrich of Fox News [8:22 AM Local 11/19]
+DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
+ y be added after the event. Market relevance is keyword-filtered.
+URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:polysilicon-232-effective@us-policy-calendar
 DTSTAMP:20261115T000000Z
 DTSTART:20261204T050100Z
