@@ -76,14 +76,6 @@
     },
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
-      "id": "schedule-3e6d8ebae30df84b697e26f087a0fba6",
-      "stamp": "20261115T111320Z",
-      "start": "2026-10-05T23:00:00+00:00",
-      "title": "White House - The President delivers Remarks [6:00 PM Local]",
-      "url": "https://rollcall.com/factbase/trump/calendar/"
-    },
-    {
-      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
       "id": "schedule-44ca5478b6aedf6dbc85fee72633ba89",
       "stamp": "20261115T111320Z",
       "start": "2026-10-12T23:00:00+00:00",
