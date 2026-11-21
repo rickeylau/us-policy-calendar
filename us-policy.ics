@@ -7,17 +7,6 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Public schedule and policy dates. Not real-time alerts. Verify
   all legal deadlines.
 BEGIN:VEVENT
-UID:schedule-f279ed1ab203352a6efd5db2d7e5fdaa@us-policy-calendar
-DTSTAMP:20261115T111320Z
-DTSTART:20261006T200000Z
-DTEND:20261006T200500Z
-SUMMARY:White House - The President delivers Remarks
-DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
- y be added after the event. Market relevance is keyword-filtered.
-URL:https://rollcall.com/factbase/trump/calendar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:schedule-8fe686db3a0cbbb1eb7128b91180a63f@us-policy-calendar
 DTSTAMP:20261115T111320Z
 DTSTART:20261007T230000Z
