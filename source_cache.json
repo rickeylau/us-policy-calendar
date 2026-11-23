@@ -84,6 +84,14 @@
     },
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-3ccf65b97474a47fe628930b5e9aad99",
+      "stamp": "20261123T195112Z",
+      "start": "2026-11-23T15:05:00+00:00",
+      "title": "White House - The President calls in to CNBC for an interview with Eamon Javers",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
       "id": "schedule-44ca5478b6aedf6dbc85fee72633ba89",
       "stamp": "20261115T111320Z",
       "start": "2026-10-12T23:00:00+00:00",
