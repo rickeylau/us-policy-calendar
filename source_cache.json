@@ -76,6 +76,14 @@
     },
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-1fdb9a6f183753980c11f6d56d7e4985",
+      "stamp": "20261123T021111Z",
+      "start": "2026-11-23T21:30:00+00:00",
+      "title": "White House - The President delivers Remarks on Protecting American Families",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
       "id": "schedule-44ca5478b6aedf6dbc85fee72633ba89",
       "stamp": "20261115T111320Z",
       "start": "2026-10-12T23:00:00+00:00",

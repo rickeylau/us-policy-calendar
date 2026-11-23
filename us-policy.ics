@@ -265,6 +265,18 @@ URL:https://rollcall.com/factbase/trump/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:schedule-1fdb9a6f183753980c11f6d56d7e4985@us-policy-calendar
+DTSTAMP:20261123T021111Z
+DTSTART:20261123T213000Z
+DTEND:20261123T213500Z
+SUMMARY:White House - The President delivers Remarks on Protecting American
+  Families
+DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
+ y be added after the event. Market relevance is keyword-filtered.
+URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:polysilicon-232-effective@us-policy-calendar
 DTSTAMP:20261115T000000Z
 DTSTART:20261204T050100Z
