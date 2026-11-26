@@ -140,6 +140,14 @@
     },
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
+      "id": "schedule-ada91d5890d2b9b2b82b48faba61e2b4",
+      "stamp": "20261126T233105Z",
+      "start": "2026-11-26T22:17:00+00:00",
+      "title": "White House - The President announces disaster relief for Florida to address the Thanksgiving storms",
+      "url": "https://rollcall.com/factbase/trump/calendar/"
+    },
+    {
+      "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",
       "id": "schedule-b68a07e6a4f05d72d72ea80db7e17566",
       "stamp": "20261115T111320Z",
       "start": "2026-11-11T16:30:00+00:00",

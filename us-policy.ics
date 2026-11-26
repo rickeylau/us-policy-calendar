@@ -267,6 +267,18 @@ URL:https://rollcall.com/factbase/trump/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:schedule-ada91d5890d2b9b2b82b48faba61e2b4@us-policy-calendar
+DTSTAMP:20261126T233105Z
+DTSTART:20261126T221700Z
+DTEND:20261126T222200Z
+SUMMARY:White House - The President announces disaster relief for Florida t
+ o address the Thanksgiving storms
+DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
+ y be added after the event. Market relevance is keyword-filtered.
+URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:polysilicon-232-effective@us-policy-calendar
 DTSTAMP:20261115T000000Z
 DTSTART:20261204T050100Z
