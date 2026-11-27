@@ -3,6 +3,16 @@
     "events": 5,
     "state": "ok"
   },
+  "futu": {
+    "cached_events": 2,
+    "duplicates": 0,
+    "events": 2,
+    "merged_events": 2,
+    "query_begin": "2026-11-24",
+    "query_end": "2026-12-04",
+    "raw_events": 76,
+    "state": "ok"
+  },
   "schedule": {
     "events": 16,
     "state": "ok"

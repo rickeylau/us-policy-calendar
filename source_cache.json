@@ -41,6 +41,24 @@
       "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22868/notice-of-determination-to-extend-section-301-investigation-of-vietnams-acts-policies-and-practices"
     }
   ],
+  "futu": [
+    {
+      "description": "Futu calendar listed time; not independently confirmed actual speech time.",
+      "id": "futu-calendar_event_5094668",
+      "stamp": "20261127T103929Z",
+      "start": "2026-11-26T14:15:00+00:00",
+      "title": "Futu - U.S. President Trump delivered a speech.",
+      "url": "https://www.futunn.com/"
+    },
+    {
+      "description": "Futu calendar listed time; not independently confirmed actual speech time.",
+      "id": "futu-calendar_event_5123931",
+      "stamp": "20261127T103929Z",
+      "start": "2026-11-26T23:45:00+00:00",
+      "title": "Futu - U.S. President Trump delivered a speech.",
+      "url": "https://www.futunn.com/"
+    }
+  ],
   "schedule": [
     {
       "description": "Public schedule via Roll Call / Factba.se. Time can change; may be added after the event. Market relevance is keyword-filtered.",

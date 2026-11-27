@@ -256,6 +256,17 @@ URL:https://rollcall.com/factbase/trump/calendar/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:futu-calendar_event_5094668@us-policy-calendar
+DTSTAMP:20261127T103929Z
+DTSTART:20261126T141500Z
+DTEND:20261126T142000Z
+SUMMARY:Futu - U.S. President Trump delivered a speech.
+DESCRIPTION:Futu calendar listed time\; not independently confirmed actual 
+ speech time.
+URL:https://www.futunn.com/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:schedule-ada91d5890d2b9b2b82b48faba61e2b4@us-policy-calendar
 DTSTAMP:20261126T233105Z
 DTSTART:20261126T221700Z
@@ -265,6 +276,17 @@ SUMMARY:White House - The President announces disaster relief for Florida t
 DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
  y be added after the event. Market relevance is keyword-filtered.
 URL:https://rollcall.com/factbase/trump/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:futu-calendar_event_5123931@us-policy-calendar
+DTSTAMP:20261127T103929Z
+DTSTART:20261126T234500Z
+DTEND:20261126T235000Z
+SUMMARY:Futu - U.S. President Trump delivered a speech.
+DESCRIPTION:Futu calendar listed time\; not independently confirmed actual 
+ speech time.
+URL:https://www.futunn.com/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
