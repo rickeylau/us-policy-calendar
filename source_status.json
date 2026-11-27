@@ -8,9 +8,9 @@
     "duplicates": 0,
     "events": 2,
     "merged_events": 2,
-    "query_begin": "2026-11-24",
-    "query_end": "2026-12-04",
-    "raw_events": 76,
+    "query_begin": "2026-11-25",
+    "query_end": "2026-12-05",
+    "raw_events": 72,
     "state": "ok"
   },
   "schedule": {
