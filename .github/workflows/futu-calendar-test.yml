@@ -1,0 +1,39 @@
+name: Futu Calendar - Read Only Test
+on:
+  workflow_dispatch:
+    inputs:
+      begin_date:
+        description: 'Start date (China time, YYYY-MM-DD)'
+        required: true
+        default: '2026-11-27'
+      end_date:
+        description: 'End date (China time, YYYY-MM-DD)'
+        required: true
+        default: '2026-11-27'
+permissions:
+  contents: read
+concurrency:
+  group: futu-calendar-test
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install signing dependency
+        run: python -m pip install cryptography==50.0.2
+      - name: Run unit tests
+        run: python -m unittest -v
+      - name: Test Futu API without publication
+        env:
+          FUTU_APP_KEY: ${{ secrets.FUTU_APP_KEY }}
+          FUTU_PRIVATE_KEY: ${{ secrets.FUTU_PRIVATE_KEY }}
+          BEGIN_DATE: ${{ inputs.begin_date }}
+          END_DATE: ${{ inputs.end_date }}
+        run: python futu_calendar.py --begin "$BEGIN_DATE" --end "$END_DATE"
