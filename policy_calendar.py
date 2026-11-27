@@ -254,7 +254,12 @@ def main():
     p = argparse.ArgumentParser(); p.add_argument('--offline', action='store_true'); p.add_argument('--as-of'); args = p.parse_args()
     today = date.fromisoformat(args.as_of) if args.as_of else datetime.now(ET).date()
     cfg = load('config.json'); manual = load('manual_events.json'); cache = load('source_cache.json')
+    from futu_integration import publication_enabled, update_source, merge_events
+    futu_enabled = publication_enabled()
     status = {}; failed = False
+    # Disabled by default: never add provider data to public output or cache.
+    if not futu_enabled:
+        cache.pop('futu', None)
     if not args.offline:
         for name, enabled, fn in [('schedule', cfg['presidential_schedule'], lambda: parse_schedule(fetch(cfg['schedule_feed']), today, cfg)),
                                   ('federal_register', cfg['federal_register'], lambda: fetch_documents(today, cfg))]:
@@ -276,7 +281,18 @@ def main():
                 failed = True
                 status[name] = {'state':'error', 'message':str(exc)[:300], 'cached_events':len(cache[name])}
                 print(f'::warning::{name}: {exc}; retaining previous source snapshot', file=sys.stderr)
+    if futu_enabled and not args.offline:
+        status['futu'] = update_source(cache, today, cfg)
+        if status['futu']['state'] == 'error':
+            failed = True
+            print('::warning::futu: ' + status['futu']['message'] + '; retaining previous snapshot', file=sys.stderr)
+        else:
+            print('futu: OK ({} matched events)'.format(status['futu']['events']))
     events = combine(cache, manual, today, cfg)
+    if futu_enabled:
+        events, added, duplicates = merge_events(events, cache.get('futu', []), today, cfg)
+        if not args.offline:
+            status['futu'].update(merged_events=added, duplicates=duplicates)
     write(CACHE, json_bytes(cache)); write(OUTPUT, render(events, cfg))
     if not args.offline:
         write(STATUS, json_bytes(status))
