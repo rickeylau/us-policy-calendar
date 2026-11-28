@@ -7,18 +7,6 @@ X-WR-TIMEZONE:America/New_York
 X-WR-CALDESC:Public schedule and policy dates. Not real-time alerts. Verify
   all legal deadlines.
 BEGIN:VEVENT
-UID:schedule-0da3bd85e05e0e7aaf417dfe90a9c23e@us-policy-calendar
-DTSTAMP:20261115T111320Z
-DTSTART:20261013T133000Z
-DTEND:20261013T133500Z
-SUMMARY:White House - Press Briefing by the White House Press Secretary Kat
- ie Zacharia
-DESCRIPTION:Public schedule via Roll Call / Factba.se. Time can change\; ma
- y be added after the event. Market relevance is keyword-filtered.
-URL:https://rollcall.com/factbase/trump/calendar/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:fr-publication-2026-22049@us-policy-calendar
 DTSTAMP:20261115T112045Z
 DTSTART;VALUE=DATE:20261028
